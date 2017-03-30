@@ -14,7 +14,7 @@ class TestController extends \yii\web\Controller {
         $Sum = $a + $b;
         return $this->render('test1', ['Sum' => $Sum]);
     } //test1
-    public function actionTest2($name=null,$lname=null) {
+    public function actionTest2($name,$lname) {
         $info = "Your name is : $name $lname";
         return $this->render('test2',['info' => $info]);
     }
