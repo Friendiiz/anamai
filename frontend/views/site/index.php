@@ -2,6 +2,7 @@
 <?php
 //* @var $this yii\web\View *
 $this->title = 'กรมอนามัย';
+//Yii::$app->db->open();
 ?>
 <?php
 $route1 = Yii::$app->urlManager->createUrl('test/test1');
